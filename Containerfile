@@ -1,5 +1,5 @@
 # Use the Red Hat UBI9 OpenJDK 17 runtime image by digest
-FROM registry.redhat.io/ubi9/openjdk-17@sha256:cdbd64ba1b7826d09bc180fa19aa6fbc09ddb5bff5e02b7e1351353bbabebb78
+FROM registry.access.redhat.com/ubi8/openjdk-17@sha256:fcfec5f79f6f6e7d0bbb57309d3c257f8d34280e338ec4d778e2747c569b3267
 
 # Run as non-root for security
 USER 1001
